@@ -8,4 +8,6 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/hanachin/idobata_fs"
   s.require_paths = ['.']
   s.files = ["idobata_fs.rb"]
+  s.add_dependency "rfusefs", "~> 1.0", ">= 1.0.3"
+  s.add_dependency "idobata_graph_ql", "~> 0.0", ">= 0.0.2"
 end
