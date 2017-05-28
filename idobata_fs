@@ -2,7 +2,7 @@
 
 require_relative 'idobata_fs'
 
-if __FILE__ == File.expand_path($0)
+if __FILE__ == $0
   require "rfusefs"
   FuseFS.start(IdobataFs.new, *ARGV)
 end
