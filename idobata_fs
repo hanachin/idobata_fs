@@ -1,8 +1,5 @@
 #!/usr/bin/env ruby
 
-require_relative 'idobata_fs'
-
-if __FILE__ == $0
-  require "rfusefs"
-  FuseFS.start(IdobataFs.new, *ARGV)
-end
+require "idobata_fs"
+require "rfusefs"
+FuseFS.start(IdobataFs.new, *ARGV)
