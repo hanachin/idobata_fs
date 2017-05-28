@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    idobata_graph_ql (0.0.2)
     rfuse (1.1.2)
     rfusefs (1.0.3)
       rfuse (~> 1.1)
@@ -9,6 +10,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  idobata_graph_ql
   rfusefs
 
 BUNDLED WITH
